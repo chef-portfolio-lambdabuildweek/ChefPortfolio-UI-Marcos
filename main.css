@@ -1,42 +1,38 @@
 html {
     box-sizing: border-box;
-    background-color: coral;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
-    height:80px;
-    width:80px;
+    height:75px;
+    width:75px;
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: steelblue;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 auto;
     width: 100%;
 }
 
-.HeaderBtn {
-    height: 30px;
-    width:150px;
-    border-radius: 7px;
-    background-color: orange;
-}
-
 .bodyPhotos {
-    width: 250px;
-    height:250px;
-    flex-wrap: wrap;
+    width: 300px;
+    height:300px;
 }
 
 .creations {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5px;
+    margin: 20px;
     width:200px;
     height:200px;
 }
@@ -45,7 +41,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5px;
+    margin: 20px;
     width:200px;
     height: 200px;
 }
@@ -54,7 +50,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5px;
+    margin: 20px;
     width: 200px;
     height: 200px;
     padding:10px;
@@ -69,10 +65,12 @@ header {
 
 .top-img {
     display: flex;
+    justify-content: center;
 }
 
 .bottom-img {
     display: flex;
+    justify-content: center;
 }
 
 img {
@@ -80,10 +78,14 @@ img {
     margin: 2px;
 }
 
-form {
-    display: flex;
-    flex-wrap: wrap;
-     
+button {
+    position: relative;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    left: 220px;
+    text-align: center;
 }
 
 h2 {
@@ -103,4 +105,15 @@ h2 {
     width: 100px;
     margin-left: 10px; 
     font-size: .9rem;
+}
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+    background-color: steelblue;
+    padding: 10px;
+}
+
+.joinUs {
+    text-align: center;
 }
