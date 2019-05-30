@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height:80px;
+    width:80px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.HeaderBtn {
+    height: 30px;
+    width:150px;
+    border-radius: 7px;
+    background-color: orange;
+}
+
+.bodyPhotos {
+    width: 250px;
+    height:250px;
+    flex-wrap: wrap;
+}
+
+.creations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    width:200px;
+    height:200px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    width:200px;
+    height: 200px;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    padding:10px;
+}
+
+.bottomDiv {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.top-img {
+    display: flex;
+}
+
+.bottom-img {
+    display: flex;
+}
+
+img {
+    border-radius: 5px;
+    margin: 2px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+
+h2 {
+    text-align: center;
+}
+
+.email {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    height: 25px;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 10px; 
+    font-size: .9rem;
+}

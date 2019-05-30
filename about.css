@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
