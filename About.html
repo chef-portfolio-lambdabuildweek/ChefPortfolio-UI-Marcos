@@ -10,36 +10,48 @@
         </head>
         <body>
             <header>
-                <img src="Logo.png" class="logo">
-                <h1>Chef Portfolio™</h1>
+                <img src="Logo.png" class="logo heading">
+                <h1 class="heading">Chef Portfolio™</h1>
+                <div class="anchors">
+                    <a href="https://nostalgic-volhard-b5db2a.netlify.com/" class="navA">Home Page</a>
+                    <a href="/ChefPortfolio-UI-Marcos/main.html" class="navA">Landing Page</a>
+                </div>
             </header>
+    <!--SlideShow code -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Rachel Kolk" />
+                <div class="text">Team Lead: Rachel Kolk</div>
+            </div>
+            <div class="mySlides fade">
+                <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Benjamin Lopez" />
+                <div class="text">Front-End: Ben Lopez</div>
+            </div>
+            <div class="mySlides fade">
+                <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Sarah Riley" />
+                <div class="text">Back-End: Sarah Riley</div>
+            </div>
+            <div class="mySlides fade">
+                <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Petar Scepanovic" />
+                <div class="text">UI Developer: Petar Scepanovic</div>
+            </div>
+            <div class="mySlides fade">
+                <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Marcos Lira" />
+                <div class="text">UI Developer: Marcos Lira</div>
+            </div>
+            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+            <a class="next" onclick='plusSlides(1)'>&#10095;</a>
 
-
-<div class="slideshow-container">
-    <div class="mySlides fade">
-        <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Rachel Kolk" />
-        <div class="text">Team Lead: Rachel Kolk</div>
-    </div>
-    <div class="mySlides fade">
-        <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Benjamin Lopez" />
-        <div class="text">Front-End: Ben Lopez</div>
-    </div>
-    <div class="mySlides fade">
-        <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Sarah Riley" />
-        <div class="text">Back-End: Sarah Riley</div>
-    </div>
-    <div class="mySlides fade">
-        <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Petar Scepanovic" />
-        <div class="text">UI Developer: Petar Scepanovic</div>
-    </div>
-    <div class="mySlides fade">
-        <img src='https://us.123rf.com/450wm/pikepicture/pikepicture1612/pikepicture161200526/68824651-stock-vector-male-default-placeholder-avatar-profile-gray-picture-isolated-on-white-background-for-your-design-ve.jpg?ver=6' class="stockImg" style='width: 100%;' alt="Marcos Lira" />
-        <div class="text">UI Developer: Marcos Lira</div>
-    </div>
-    <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
-    <a class="next" onclick='plusSlides(1)'>&#10095;</a>
-</div>
-
+            <div style='text-align: center;'>
+                <span class="dot" onclick='currentSlide(1)'></span>
+                <span class="dot" onclick='currentSlide(2)'></span>
+                <span class="dot" onclick='currentSlide(3)'></span>
+                <span class="dot" onclick='currentSlide(4)'></span>
+                <span class="dot" onclick='currentSlide(5)'></span>
+            </div>
+            </div>
+    <!--SlideShow End -->
+    <!--About the team section start-->
             <h2 class="about">About the Team</h2>
             <div class="teamSection">
                 <div class="member1">
@@ -87,6 +99,7 @@
                     tortor, molestie at tincidunt a, scelerisque ac lorem. Nullam vitaep>
                 </div>
                 </div>
+            <!--About the team end -->
                 <footer>
                     <h2>Chef Portfolio™</h2>
                     <p>created by our wonderful build week team!</p>

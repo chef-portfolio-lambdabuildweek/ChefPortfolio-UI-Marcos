@@ -1,3 +1,18 @@
+mouseOver = document.querySelectorAll('.navA');
+
+mouseOver.forEach(function () {
+    anchors.addEventListener("mouseover", function(event){
+        event.target.style.color = "crimson";
+
+        setTimeout(function () {
+            event.target.style.color = "";
+        }, 500);
+    }, false);
+});
+
+
+
+
 var slideIndex = 1;
 
 var myTimer;
@@ -44,5 +59,5 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    dots[slideIndex - 1].className += "active";
 }
