@@ -7,9 +7,17 @@ body{
 }
 
 header {
+    background-color: steelblue;
+}
+
+.heading {
     display: flex;
     justify-content: center;
-    background-color: steelblue;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo {
