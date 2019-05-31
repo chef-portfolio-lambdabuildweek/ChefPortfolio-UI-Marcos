@@ -23,6 +23,20 @@ body {
     margin: 0 auto;
 }
 
+.topA {
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.anchors {
+    display: flex;
+    justify-content: center;
+}
+
 .bodyPhotos {
     width: 300px;
     height:300px;
@@ -118,7 +132,7 @@ footer {
     text-align: center;
 }
 
-a {
+.team {
     color: white;
 }
 

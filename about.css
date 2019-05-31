@@ -26,6 +26,7 @@ header {
     max-width: 800px;
     position: relative;
     margin: auto;
+    margin-top: 15px;
 }
 
 .mySlides {
@@ -121,4 +122,10 @@ header {
 
 footer {
     background-color: steelblue;
+    text-align: center;
+}
+
+.stockImg {
+    width: 200px;
+    height: 400px;
 }
