@@ -8,16 +8,25 @@ body{
 
 header {
     background-color: steelblue;
+    display: flex;
+    justify-content: center; 
 }
 
 .heading {
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
 
-a {
+.anchors {
     display: flex;
     justify-content: flex-end;
+}
+
+.navA {
+    margin: 5px;
+    margin-top: 25px;
+    color: black;
 }
 
 .logo {
@@ -131,9 +140,24 @@ a {
 footer {
     background-color: steelblue;
     text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .stockImg {
     width: 200px;
     height: 400px;
+}
+
+
+@media (max-width: 800px) {
+    .slideshow-container {
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 500px) {
+    .slideshow-container {
+        max-width: 325px;
+    }
 }
