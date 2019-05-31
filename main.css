@@ -19,8 +19,8 @@ header {
 }
 
 body {
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
 }
 
 .bodyPhotos {
@@ -116,4 +116,40 @@ footer {
 
 .joinUs {
     text-align: center;
+}
+
+a {
+    color: white;
+}
+
+
+@media (max-width: 800px) {
+    .bodyPhotos{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 500px){
+    .bodyPhotos {
+        height:100px;
+        width:100px;
+    }
+    .bottomDiv {
+        flex-direction: column;
+    }
+    .creations{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 90%;
+        width: 90%;
+    }
+    .portfolio {
+        height: 90%;
+        width: 90%;
+    }
+    .job {
+        height: 90%;
+        width: 90%;
+    }
 }
