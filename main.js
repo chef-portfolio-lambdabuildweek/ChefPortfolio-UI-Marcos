@@ -1,4 +1,5 @@
 let anchors = document.querySelectorAll('.topA');
+console.log(anchors);
 
 anchors.forEach(function(){
     anchors.addEventListener("mouseover", function (event) {
