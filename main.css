@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height:75px;
+    width:75px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topA {
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.anchors {
+    display: flex;
+    justify-content: center;
+}
+
+.bodyPhotos {
+    width: 300px;
+    height:300px;
+}
+
+.creations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    width:200px;
+    height:200px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    width:200px;
+    height: 200px;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    padding:10px;
+}
+
+.bottomDiv {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.top-img {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-img {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 5px;
+    margin: 2px;
+}
+
+button {
+    position: relative;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    left: 220px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.email {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    height: 25px;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 10px; 
+    font-size: .9rem;
+}
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+    background-color: steelblue;
+    padding: 10px;
+}
+
+.joinUs {
+    text-align: center;
+}
+
+.team {
+    color: white;
+}
+
+
+@media (max-width: 800px) {
+    .bodyPhotos{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 500px){
+    .bodyPhotos {
+        height:100px;
+        width:100px;
+    }
+    .bottomDiv {
+        flex-direction: column;
+    }
+    .creations{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 90%;
+        width: 90%;
+    }
+    .portfolio {
+        height: 90%;
+        width: 90%;
+    }
+    .job {
+        height: 90%;
+        width: 90%;
+    }
+}
